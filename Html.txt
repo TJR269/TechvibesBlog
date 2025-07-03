@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Custom Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">🎮TechVibes</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#" class="text-blue-500 hover:underline">Home</a>
+        <a href="#" class="text-blue-500 hover:underline">About</a>
+        <a href="#" class="text-blue-500 hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-3xl mx-auto mt-10 p-6 bg-white rounded shadow space-y-12">
+
+    <!-- Blog Post -->
+    <article>
+      <h2 class="text-2xl font-bold mb-2">🎮 What Graphics Card Should You Choose in 2025?</h2>
+      <p class="text-sm text-gray-500 mb-6">By TechVibes | July 3, 2025</p>
+
+      <p class="mb-4">So you’re building (or upgrading) a PC and stuck on one question: <strong>Which graphics card should I get?</strong></p>
+
+      <p class="mb-4">I’ve been down this road more times than I can count — from budget builds to beastly rigs that sound like jet engines. And with so many GPUs floating around in 2025 (NVIDIA, AMD, Intel... it's a whole thing), it’s easy to feel overwhelmed.</p>
+
+      <p class="mb-4">Let me break it down for you. No jargon. Just practical advice.</p>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">🧠 What Do You Actually Need Your PC For?</h3>
+      <p class="mb-4">Start by figuring out what you’re doing with your PC — because you don’t need a $1,000 graphics card if you're just watching Netflix or scrolling Reddit.</p>
+
+      <div class="overflow-x-auto mb-6">
+        <table class="table-auto border border-gray-200 w-full text-left text-sm">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="p-2 border">Use Case</th>
+              <th class="p-2 border">Good GPU Range</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-2 border">Browsing / YouTube</td>
+              <td class="p-2 border">Integrated graphics (Intel/AMD)</td>
+            </tr>
+            <tr>
+              <td class="p-2 border">1080p Gaming</td>
+              <td class="p-2 border">RTX 4060 / RX 7600</td>
+            </tr>
+            <tr>
+              <td class="p-2 border">1440p Gaming</td>
+              <td class="p-2 border">RTX 4070 / RX 7700 XT</td>
+            </tr>
+            <tr>
+              <td class="p-2 border">4K / VR Gaming</td>
+              <td class="p-2 border">RTX 4080+ / RX 7900 XTX</td>
+            </tr>
+            <tr>
+              <td class="p-2 border">Video Editing / AI</td>
+              <td class="p-2 border">RTX 4070–4090</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">💰 Let’s Talk Budget</h3>
+      <p class="mb-4">Here’s what you can expect to pay in mid-2025:</p>
+
+      <ul class="list-disc list-inside mb-6">
+        <li><strong>$150–$250:</strong> RX 6600, RTX 3050, Arc A580</li>
+        <li><strong>$300–$400:</strong> RX 7600, RTX 4060 Ti</li>
+        <li><strong>$500–$700:</strong> RTX 4070, RX 7800 XT</li>
+        <li><strong>$800+:</strong> RTX 4080/4090, RX 7900 XTX</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">🆚 NVIDIA vs AMD vs Intel</h3>
+      <p class="mb-4">Here's a quick rundown based on real-world experience:</p>
+
+      <ul class="list-disc list-inside mb-4">
+        <li><strong>NVIDIA:</strong> Best for high-end, ray tracing, and content creation (expensive though)</li>
+        <li><strong>AMD:</strong> Great value and strong performance for gamers (especially 1080p/1440p)</li>
+        <li><strong>Intel:</strong> Decent budget option, but drivers still improving</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-6 mb-2">🖥️ Match It With Your Monitor</h3>
+      <p class="mb-4">Don’t throw a 4090 at a 60Hz 1080p monitor. Here’s what makes sense:</p>
+
+      <ul class="list-disc list-inside mb-6">
+        <li><strong>1080p @ 60Hz:</strong> RTX 3050, RX 6600</li>
+        <li><strong>1080p @ 144Hz:</strong> RTX 4060 / RX 7600</li>
+        <li><strong>1440p @ 144Hz:</strong> RTX 4070 / RX 7700 XT</li>
+        <li><strong>4K Gaming:</strong> RTX 4080 / RX 7900 XTX</li>
+      </ul>
+
+      <p class="mb-4">Hopefully this clears things up. Don’t just chase benchmarks — match your GPU to your actual needs. And remember: even a mid-range card today can crush most games if your expectations are realistic.</p>
+
+      <p class="text-gray-500 mt-6 text-sm">Tags: <span class="text-blue-600">#PCGaming</span> <span class="text-blue-600">#GraphicsCards</span> <span class="text-blue-600">#TechTips</span></p>
+    </article>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 text-sm mt-16 p-4">
+    &copy; 2025 My Custom Blog. All rights reserved.
+  </footer>
+
+</body>
+</html>
